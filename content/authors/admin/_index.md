@@ -30,13 +30,13 @@ education:
   courses:
   - course: PhD in Machine Learning
     institution: Bielefeld University
-    year: 2015
+    year: 2015-?
   - course: MSc Mathematics
     institution: Bielefeld University
-    year: 2013
+    year: 2013-2015
   - course: BSc in Mathematics & Computer Science
     institution: Bielefeld University
-    year: 2010
+    year: 2010-2013
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
