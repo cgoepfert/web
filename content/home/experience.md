@@ -24,7 +24,8 @@ date_format = "Jan 2006"
   location = "Remotely to MTV"
   date_start = "2020-06-01"
   date_end = "2020-09-04"
-  description = """Research interactive recommender systems."""
+  description = """Research interactive recommender systems.
+  
   Responsibilities include:
   
   * Conceptualizing
