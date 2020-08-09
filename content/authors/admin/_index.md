@@ -26,7 +26,7 @@ interests:
 - Learning Theory
 - Semi-Supervised Learning
 
-education & experience:
+education:
   courses:
   - course: PhD in Machine Learning
     institution: Bielefeld University
