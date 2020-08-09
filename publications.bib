@@ -1,0 +1,152 @@
+@inproceedings{2016_esann,
+  abstract     = {Time series prediction constitutes a classic topic in machine learning with wide-ranging  applications, but mostly restricted to the domain of vectorial sequence entries. In recent years, time series of structured data (such as sequences, trees or graph structures) have become more and more important, for example in social network analysis or intelligent tutoring systems. 
+In this contribution, we propose an extension of time series models to strucured data based on Gaussian processes and structure kernels. We also provide speedup techniques for predictions in linear time, and we evaluate our approach on real data from the domain of intelligent tutoring systems.},
+  author       = {Paaßen, Benjamin and Göpfert, Christina and Hammer, Barbara},
+  booktitle    = {Proceedings of the ESANN, 24th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning},
+  editor       = {Verleysen, Michele},
+  keyword      = {structured data, gaussian processes, time series prediction},
+  location     = {Bruges},
+  pages        = {41--46},
+  title        = {{Gaussian process prediction for time series of structured data}},
+  year         = {2016},
+}
+
+@inproceedings{2016_icann,
+  abstract     = {Large margin nearest neighbor classification (LMNN) is a popular technique to learn a metric that improves the accuracy of a simple k-nearest neighbor classifier via a convex optimization scheme. However, the optimization problem is convex only under the assumption that the nearest neighbors within classes remain constant. In this contribution we show that an iterated LMNN scheme (multi-pass LMNN) is a valid optimization technique for the original LMNN cost function without this assumption. We further provide an empirical evaluation of multi-pass LMNN, demonstrating that multi-pass LMNN can lead to notable improvements in classification accuracy for some datasets and does not necessarily show strong overfitting tendencies as reported before.},
+  author       = {Göpfert, Christina and Paaßen, Benjamin and Hammer, Barbara},
+  booktitle    = {Artificial Neural Networks and Machine Learning – ICANN 2016: 25th International Conference on Artificial Neural Networks, Barcelona, Spain, September 6-9, 2016, Proceedings, Part 1},
+  editor       = {E.P. Villa, Alessandro and Masulli, Paolo and Pons Rivero, Antonio Javier},
+  location     = {Barcelona},
+  pages        = {510--517},
+  publisher    = {Springer Nature},
+  title        = {{Convergence of Multi-pass Large Margin Nearest Neighbor Metric Learning}},
+  doi          = {10.1007/978-3-319-44778-0_60},
+  volume       = {9886},
+  year         = {2016},
+}
+
+@inproceedings{2016_icann_2,
+  author       = {Kummert, Johannes and Paaßen, Benjamin and Jensen, Joris and Göpfert, Christina and Hammer, Barbara},
+  booktitle    = {Artificial Neural Networks and Machine Learning - ICANN 2016 - 25th International Conference on Artificial Neural Networks, Barcelona, Spain, September 6-9, 2016, Proceedings, Part II},
+  pages        = {251----258},
+  title        = {{Local Reject Option for Deterministic Multi-class SVM}},
+  doi          = {10.1007/978-3-319-44781-0_30},
+  year         = {2016},
+}
+
+@inproceedings{2017_esann,
+  abstract     = {Biomedical applications often aim for an identification of relevant features for a given classification task, since these carry the promise of semantic insight into the underlying process.
+For correlated input dimensions, feature relevances are not unique, and the identification of meaningful subtle biomarkers remains a challenge.
+One approach is to identify intervals for the possible relevance of given features, a problem related to all relevant feature determination.
+In this contribution, we address the important case of linear classifiers and we transfer the problem how to infer feature relevance bounds to a convex optimization problem. 
+We demonstrate the superiority of the resulting technique in comparison to popular feature-relevance determination methods in several benchmarks.},
+  author       = {Göpfert, Christina and Pfannschmidt, Lukas and Hammer, Barbara},
+  booktitle    = {Proceedings of the ESANN},
+  location     = {Bruges},
+  publisher    = {25th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning},
+  title        = {{Feature Relevance Bounds for Linear Classification}},
+  year         = {2017},
+}
+
+
+@article{2017_neurocomputing,
+  abstract     = {Research on feature relevance and feature selection problems goes back several decades, but the importance of these areas continues to grow as more and more data becomes available, and machine learning methods are used to gain insight and interpret, rather than solely to solve classification or regression problems. Despite the fact that feature relevance is often discussed, it is frequently poorly defined, and the feature selection problems studied are subtly different. Furthermore, the problem of finding all features relevant for a classification problem has only recently started to gain traction, despite its importance for interpretability and integrating expert knowledge. In this paper, we attempt to unify commonly used concepts and to give an overview of the main questions and results. We formalize two interpretations of the all-relevant problem and propose a polynomial method to approximate one of them for the important hypothesis class of linear classifiers, which also enables a distinction between strongly and weakly relevant features.},
+  author       = {Göpfert, Christina and Pfannschmidt, Lukas and Göpfert, Jan Philip and Hammer, Barbara},
+  journal      = {Neurocomputing},
+  keyword      = {Feature Relevance, Feature Selection, Interpretability, All-Relevant, Linear Classification},
+  pages        = {69--79},
+  publisher    = {Elsevier},
+  title        = {{Interpretation of Linear Classifiers by Means of Feature Relevance Bounds}},
+  doi          = {10.1016/j.neucom.2017.11.074},
+  volume       = {298},
+  year         = {2018},
+}
+
+@inproceedings{2017_nips,
+  author       = {Göpfert, Christina and Göpfert, Jan Philip and Hammer, Barbara},
+  booktitle    = {Proceedings of the 2017 NIPS workshop on Transparent and Interpretable  Machine Learning in Safety Critical Environments},
+  location     = {Long Beach},
+  title        = {{Analyzing Feature Relevance for Linear Reject Option SVM using Relevance Intervals}},
+  year         = {2017},
+}
+
+@inproceedings{2017_ssci,
+  author       = {Göpfert, Jan Philip and Göpfert, Christina and Botsch, Mario and Hammer, Barbara},
+  booktitle    = {Proceedings of IEEE Symposium Series on Computational Intelligence},
+  location     = {Honolulu, Hawaii, USA},
+  title        = {{Effects of Variability in Synthetic Training Data on Convolutional Neural Networks for 3D Head Reconstruction}},
+  year         = {2017},
+}
+
+@article{2017_nlp,
+  abstract     = {Graphs are a flexible and general formalism providing rich models in various important domains, such as distributed computing, intelligent tutoring systems or social network analysis. In many cases, such models need to take changes in the graph structure into account, that is, changes in the number of nodes or in the graph connectivity. Predicting such changes within graphs can be expected to yield important insight with respect to the underlying dynamics, e.g. with respect to user behaviour. However, predictive techniques in the past have almost exclusively focused on single edges or nodes. In this contribution, we attempt to predict the future state of a graph as a whole.
+We propose to phrase time series prediction as a regression problem and apply dissimilarity- or kernel-based regression techniques, such as 1-nearest neighbor, kernel regression and Gaussian process regression, which can be applied to graphs via graph kernels. The output of the regression is a point embedded in a pseudo-Euclidean space, which can be analyzed using subsequent dissimilarity- or kernel-based processing methods. We discuss strategies to speed up Gaussian Processes regression from cubic to linear time and evaluate our approach on two well-established theoretical models of graph evolution as well as two real data sets from the domain of intelligent tutoring systems. We find that simple regression methods, such as kernel regression, are sufficient to capture the dynamics in the theoretical models, but that Gaussian process regression significantly improves the prediction error for real-world data.},
+  author       = {Paaßen, Benjamin and Göpfert, Christina and Hammer, Barbara},
+  journal      = {Neural Processing Letters},
+  keyword      = {Structured Data, Graphs, Time Series Prediction, Gaussian Processes, Kernel Space},
+  pages        = {1--21},
+  publisher    = {Springer},
+  title        = {{Time Series Prediction for Graphs in Kernel and Dissimilarity Spaces}},
+  doi          = {10.1007/s11063-017-9684-5},
+  year         = {2017},
+}
+
+@article{2018_neurocomputing,
+title = "Differential privacy for learning vector quantization",
+journal = "Neurocomputing",
+volume = "342",
+pages = "125 - 136",
+year = "2019",
+note = "Advances in artificial neural networks, machine learning and computational intelligence",
+issn = "0925-2312",
+doi = "https://doi.org/10.1016/j.neucom.2018.11.095",
+url = "http://www.sciencedirect.com/science/article/pii/S0925231219301511",
+author = "Johannes Brinkrolf and Christina Göpfert and Barbara Hammer",
+keywords = "Differential privacy, Learning vector quantization",
+abstract = "Prototype-based machine learning methods such as learning vector quantisation (LVQ) offer flexible classification tools, which represent a classification in terms of typical prototypes. This representation leads to a particularly intuitive classification scheme, since prototypes can be inspected by a human partner in the same way as data points. Yet, it bears the risk of revealing private information included in the training data, since individual information of a single training data point can significantly influence the location of a prototype. In this contribution, we investigate the question how to algorithmically extend LVQ such that it provably obeys privacy constraints as offered by the notion of so-called differential privacy. More precisely, we demonstrate the sensitivity of LVQ to single data points and hence the need of its extension to private variants in case of possibly sensitive training data. We investigate three technologies which have been proposed in the context of differential privacy, and we extend these technologies to LVQ schemes. We investigate the effectiveness and efficiency of these schemes for various data sets, and we evaluate their scalability and robustness as regards the choice of meta-parameters and characteristics of training sets. Interestingly, one algorithm, which has been proposed in the literature due to its beneficial mathematical properties, does not scale well with data dimensionality, while two alternative techniques, which are based on simpler principles, display good results in practical settings."
+}
+
+@article{2019_cibcb,
+  author    = {Lukas Pfannschmidt and
+               Christina G{\"{o}}pfert and
+               Ursula Neumann and
+               Dominik Heider and
+               Barbara Hammer},
+  title     = {{FRI} - Feature Relevance Intervals for Interpretable and Interactive
+               Data Exploration},
+  journal   = {CoRR},
+  volume    = {abs/1903.00719},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1903.00719},
+  archivePrefix = {arXiv},
+  eprint    = {1903.00719},
+  timestamp = {Sat, 30 Mar 2019 19:27:21 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1903-00719},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@InProceedings{2019_colt,
+  title = 	 {When can unlabeled data improve the learning rate?},
+  author = 	 {G{\"o}pfert, Christina and Ben-David, Shai and Bousquet, Olivier and Gelly, Sylvain and Tolstikhin, Ilya and Urner, Ruth},
+  booktitle = 	 {Proceedings of the Thirty-Second Conference on Learning Theory},
+  pages = 	 {1500--1518},
+  year = 	 {2019},
+  editor = 	 {Beygelzimer, Alina and Hsu, Daniel},
+  volume = 	 {99},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Phoenix, USA},
+  month = 	 {25--28 Jun},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v99/gopfert19a/gopfert19a.pdf},
+  url = 	 {http://proceedings.mlr.press/v99/gopfert19a.html},
+  abstract = 	 {In semi-supervised classification, one is given access both to labeled and unlabeled data. As unlabeled data is typically cheaper to acquire than labeled data, this setup becomes advantageous as soon as one can exploit the unlabeled data in order to produce a better classifier than with labeled data alone. However, the conditions under which such an improvement is possible are not fully understood yet. Our analysis focuses on improvements in the \emph{minimax} learning rate in terms of the number of labeled examples (with the number of unlabeled examples being allowed to depend on the number of labeled ones). We argue that for such improvements to be realistic and indisputable, certain specific conditions should be satisfied and previous analyses have failed to meet those conditions. We then demonstrate examples where these conditions can be met, in particular showing rate changes from $1/\sqrt{\ell}$ to $e^{-c\ell}$ and from $1/\sqrt{\ell}$ to $1/\ell$. These results improve our understanding of what is and isn’t possible in semi-supervised learning.}
+}
+
+@Misc{2019_ecml,
+  author     = {Christina Göpfert and Jan Philip Göpfert and Barbara Hammer},
+  title      = {Adversarial Robustness Curves},
+  date       = {2019},
+  eprint     = {1908.00096},
+  eprinttype = {arXiv},
+}
+

@@ -69,4 +69,4 @@ email: ""
 
 ---
 
-Christina Göpfert is a machine learning PhD candidate.
+Christina Göpfert is a machine learning PhD candidate. She likes to think about how to model and solve non-standard ML problems. Outside of work, she's an avid Crossfitter and traveler.
