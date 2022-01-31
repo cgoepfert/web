@@ -19,19 +19,21 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Research Intern"
+  company = "Deepmind"
+  company_url = ""
+  location = "Remotely with London"
+  date_start = "2021-08-15"
+  date_end = "2021-12-17"
+  description = """Research why neural networks work."""
+
+[[experience]]
+  title = "Research Intern"
   company = "Google"
   company_url = ""
-  location = "Remotely to MTV"
+  location = "Remotely with MTV"
   date_start = "2020-06-01"
   date_end = "2020-09-04"
-  description = """Research interactive recommender systems.
-  
-  Responsibilities include:
-  
-  * Conceptualizing
-  * Researching
-  * Coding
-  """
+  description = """Researched interactive recommender systems. Published results at The Web Conference."""
 
 [[experience]]
   title = "Research Intern"
@@ -40,6 +42,6 @@ date_format = "Jan 2006"
   location = "Zurich"
   date_start = "2018-09-01"
   date_end = "2018-12-28"
-  description = """Researched semi-supervied machine learning."""
+  description = """Researched semi-supervied machine learning. Published results at COLT."""
 
 +++

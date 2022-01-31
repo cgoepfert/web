@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD candidate, machine learning
+role: PhD candidate for machine learning
 
 # Organizations/Affiliations
 organizations:
@@ -18,11 +18,11 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I'm a final-year PhD candidate, interested in modeling machine learning for non-standard settings such as semi-supervision, robustness, explanability and interaction.
+bio: Final-year PhD candidate, interested in modeling machine learning for non-standard settings such as semi-supervision, robustness, explanability and interaction.
 
 interests:
-- (Adversarial) Robustness
-- Interactive Recommenders
+- Robustness
+- Interactivity
 - Learning Theory
 - Semi-Supervised Learning
 
@@ -31,7 +31,7 @@ education:
   - course: PhD in Machine Learning
     institution: Bielefeld University
     year: 2015-?
-  - course: MSc Mathematics
+  - course: MSc in Mathematics
     institution: Bielefeld University
     year: 2013-2015
   - course: BSc in Mathematics & Computer Science
@@ -52,6 +52,12 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=S6jFnW8AAAAJ
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0003-2517-4907
+- icon: semantic-scholar
+  icon_pack: ai
+  link: https://www.semanticscholar.org/author/Christina-G%C3%B6pfert/3448529
 # - icon: github
 #   icon_pack: fab
 #   link: https://github.com/cgoepfert
@@ -69,4 +75,4 @@ email: ""
 
 ---
 
-Christina Göpfert is a machine learning PhD candidate. She likes to think about how to model and solve non-standard ML problems. Outside of work, she's an avid Crossfitter and traveler.
+Machine learning PhD candidate. I like to think about how to model and solve non-standard ML problems. Outside of work, I'm an avid Crossfitter, traveler and mother.
