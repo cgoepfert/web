@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   location = "Remotely with London"
   date_start = "2021-08-15"
   date_end = "2021-12-17"
-  description = """Research why neural networks work."""
+  description = """Researched why neural networks work."""
 
 [[experience]]
   title = "Research Intern"
