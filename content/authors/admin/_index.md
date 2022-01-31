@@ -75,4 +75,4 @@ email: ""
 
 ---
 
-Machine learning PhD candidate. I like to think about how to model and solve non-standard ML problems. Outside of work, I'm an avid Crossfitter, traveler and mother.
+Machine learning PhD candidate. I enjoy thinking about how to model and solve non-standard ML problems. Outside of work, I'm an avid Crossfitter, traveler and mother.
