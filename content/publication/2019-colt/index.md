@@ -8,7 +8,6 @@ abstract: "We investigate realistic conditions for when unlabeled data improves 
 featured: true
 publication: "*Conference on Learning Theory*"
 url_pdf: "https://arxiv.org/pdf/1905.11866"
-url: "https://proceedings.mlr.press/v99/gopfert19a.html"
 
 ---
 
