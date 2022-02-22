@@ -7,6 +7,7 @@ publication_types: ["1"]
 abstract: "We develop a framework to represent natural language attributes in a learned embedding space. This allows us to leverage open-ended user feedback to improve recommendations."
 featured: true
 publication: "*The Web Conference*"
+url_pdf: "https://arxiv.org/pdf/2202.02830"
 
 ---
 
