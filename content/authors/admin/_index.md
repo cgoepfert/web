@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Final-year PhD candidate, interested in modeling machine learning for non-standard settings such as semi-supervision, robustness, explanability and interaction.
+bio: Almost-finished PhD candidate, interested in modeling machine learning for non-standard settings such as semi-supervision, robustness, explanability and interaction.
 
 interests:
 - Robustness
@@ -30,7 +30,7 @@ education:
   courses:
   - course: PhD in Machine Learning
     institution: Bielefeld University
-    year: 2015-?
+    year: 2015-2022
   - course: MSc in Mathematics
     institution: Bielefeld University
     year: 2013-2015
