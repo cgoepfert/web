@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD candidate for machine learning
+role: Applied Scientist working on optimizing value of ad serving at Amazon
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Almost-finished PhD candidate, interested in modeling machine learning for non-standard settings such as semi-supervision, robustness, explanability and interaction.
+bio: PhD in machine learning, interested in modeling machine learning for non-standard settings such as semi-supervision, robustness, explanability and interaction.
 
 interests:
 - Robustness
