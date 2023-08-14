@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Applied Scientist working on optimizing value of ad serving at Amazon
+role: Applied Scientist, optimizing value of ad serving
 
 # Organizations/Affiliations
 organizations:
-- name: Bielefeld University
+- name: Amazon
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
